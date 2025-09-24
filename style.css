@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  /*add image*/
+  /* no-repeat center center/cover;*/
+  background: url(pizza2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+
+  font-family: cursive;
+  font-style: italic;
+  color: antiquewhite;
+}
+.container {
+  max-width: 600px;
+  margin-top: 350px;
+  margin-left: 120px;
+  padding: 20px;
+  border: 5px solid 0.3;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+input {
+  padding: 10px;
+  border: 1px 0.3;
+  border-radius: 4px;
+  margin: 10px 0;
+  width: 100%;
+}
+button {
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-style: italic;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+  background-color: rgb(209, 17, 17);
+  border-radius: 4px;
+  margin-left: 1px;
+}
+button:hover {
+  background-color: rgb(197, 8, 8, 0.6);
+  color: rgb(53, 49, 49);
+}
+#total {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
