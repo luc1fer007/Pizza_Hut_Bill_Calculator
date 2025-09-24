@@ -8,4 +8,4 @@ A simple  user-friendly bill calculator with built in tip perchentage system
 - HTML
 - CSS
 - JAVASCRIPT
-### [Calculate now]()
+### [Calculate now](https://luc1fer007.github.io/Pizza_Hut_Bill_Calculator/)
